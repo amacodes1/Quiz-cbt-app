@@ -1,0 +1,55 @@
+/* Index Page Begins */
+.login img{
+    height: 150px;
+    margin-left: 8rem;
+    margin-top: 5px;
+    border-radius: 60px;
+}
+.login{
+    margin-top: 5rem;
+    margin-left: 27rem;
+}
+.form{
+    background-color: white;
+    box-shadow: 1px 1px 10px wheat;
+    padding: 15px;
+    width: 380px;
+    height: 350px;
+}
+.form input{
+    width: 350px;
+    height: 25px;
+}
+.form .check {
+    margin-left: 1px;
+    width: 15px;
+}
+body{
+    background-image: url(image/body-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    background-blend-mode: overlay;
+}
+.form .btn{
+    width: 70px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 5px;
+    margin-left: 17rem;
+}
+.form .btn a{
+    color: white;
+    text-decoration: none;
+}
+.form .btn2{
+    width: 150px;
+    height: 40px;
+    background-color: rgb(73, 73, 226);
+    border-radius: 5px;
+    margin-left: 12rem;
+}
+.form .btn2 a{
+    color: white;
+    text-decoration: none;
+}
+/* Index Page Ends */
