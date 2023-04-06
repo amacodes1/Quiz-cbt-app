@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quiz App</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div class="login">
-        <img src="image/cbt-logo.jpg" alt="">
-        <div class="form">
-            <h2>Login to your account</h2>
-            <form action="" method="post" id="form">
-                <input type="email" id="email" placeholder="Enter Your Email"> <br><br>
-                <input type="password" id="password" placeholder="Enter Your Password"> <br><br>
-                <label for="">
-                    <input class="check" type="checkbox" id="password" >Remember me <br>
-                </label>
+    <div class="body container-fluid">
+        <div class="login">
+            <img src="image/cbt-logo.jpg" alt="">
+            <div class="form">
+                <h2>Login to your account</h2>
+                <form action="" method="post" id="form">
+                    <input type="text" id="username" placeholder="Enter Your Username"> <br><br>
+                    <input type="email" id="email" placeholder="Enter Your Email"> <br><br>
+                    <input type="password" id="password" placeholder="Enter Your Password"> <br><br>
+                    <label for="">
+                        <input class="check" type="checkbox" id="checkbox" >Remember me <br>
+                    </label>
+                    
+                    <button class="btn"><a href="page2.html">Login</a></button> <br><br>
+                     
+                     <label for="">Don't have an account yet?
+                         <button class="btn2"><a href="#login">Create an account</a></button>
+                     </label>
+                </form>
                 
-                <button class="btn btn-primary"><a href="#login">Login</a></button> <br><br>
-                 Don't have an account yet?
-                    <button class="btn2 btn-info"><a href="#login">Create an account</a></button>
-            </form>
-            
+            </div>
         </div>
+    
     </div>
-
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
 </body>
 </html>

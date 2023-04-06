@@ -1,4 +1,11 @@
 /* Index Page Begins */
+body {
+    background-image: url(image/quiz-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100rem;
+    /* background-blend-mode: overlay;
+    padding: 30px; */
+}
 .login img{
     height: 150px;
     margin-left: 8rem;
@@ -6,7 +13,7 @@
     border-radius: 60px;
 }
 .login{
-    margin-top: 5rem;
+    margin-top: 2rem;
     margin-left: 27rem;
 }
 .form{
@@ -16,6 +23,10 @@
     width: 380px;
     height: 350px;
 }
+.form h2{
+    margin-left: 50px;
+    text-transform: capitalize;
+}
 .form input{
     width: 350px;
     height: 25px;
@@ -24,12 +35,7 @@
     margin-left: 1px;
     width: 15px;
 }
-body{
-    background-image: url(image/body-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: 100rem;
-    background-blend-mode: overlay;
-}
+
 .form .btn{
     width: 70px;
     height: 40px;
@@ -46,10 +52,50 @@ body{
     height: 40px;
     background-color: rgb(73, 73, 226);
     border-radius: 5px;
-    margin-left: 12rem;
+    margin-left: 2rem;
 }
 .form .btn2 a{
     color: white;
     text-decoration: none;
 }
 /* Index Page Ends */
+
+/* Page2 styling begins */
+.info{
+    background-color: rgb(78, 95, 248);
+    color: white;
+    box-shadow: 2px 2px 10px black;
+    width: 600px;
+    height: 200px;
+    padding: 15px;
+    margin-left: 25rem;
+}
+.info h1{
+    text-align: center;
+}
+.subject{
+    text-align: center;
+}
+.subject h2{
+    text-decoration: underline;
+    color: blueviolet;
+}
+.subject select{
+    width: 230px;
+    height: 30px;
+    border-radius: 10px;
+    border-color: blue;
+}
+.btn3{
+    background-color: aliceblue;
+    color: blue;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 52rem;
+    margin-top: 2rem;
+}
+.btn3 a{
+    text-decoration: none;
+}
+/* Page2 styling Ends */
