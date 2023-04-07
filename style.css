@@ -3,8 +3,6 @@ body {
     background-image: url(image/quiz-bg.jpg);
     background-repeat: no-repeat;
     background-size: 100rem;
-    /* background-blend-mode: overlay;
-    padding: 30px; */
 }
 .login img{
     height: 150px;
