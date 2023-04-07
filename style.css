@@ -16,10 +16,11 @@ body {
 }
 .form{
     background-color: white;
-    box-shadow: 2px 2px 15px rgb(230, 190, 118);
+    box-shadow: 2px 2px 15px rgb(49, 49, 49);
     padding: 15px;
     width: 380px;
     height: 350px;
+    border-radius: 10px;
 }
 .form h2{
     margin-left: 50px;
@@ -57,6 +58,73 @@ body {
     text-decoration: none;
 }
 /* Index Page Ends */
+
+/* Create Account Page begins */
+#create-acc-form{
+    background-color: white;
+    box-shadow: 2px 2px 15px rgb(49, 49, 49);
+    padding: 15px;
+    width: 400px;
+    height: 600px;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    margin-left: 27rem;
+}
+.title{
+    margin-bottom: 20px;
+}
+.input-group{
+    margin: 20px 0;
+    position: relative;
+}
+.input-group label{
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.input-group input{
+    width: 370px;  
+    /* height: 30px; */
+    display: block;
+    padding: 10px;
+}
+.error input{
+    border: 3px red solid;
+}
+.success input{
+    border: 3px green solid;
+}
+.input-group i{
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    visibility: hidden;
+}
+.error i.fa-circle-exclamation{
+    visibility: visible;
+    color: red;
+}
+.success i.fa-circle-check{
+    visibility: visible;
+    color: green;
+}
+.input-group p{
+    font-size: 15px;
+    color: red;
+    visibility: hidden;
+}
+.error p{
+    visibility: visible;
+}
+.btn1{
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(13, 13, 53);
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+/* Create account page ends */
 
 /* Page2 styling begins */
 .info{
